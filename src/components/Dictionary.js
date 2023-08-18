@@ -31,7 +31,7 @@ function WordDefinitions() {
       <button onClick={fetchDefinitions}>Fetch Definitions</button>
 
       {definitions.length > 0 && (
-        <div>
+        <div className="definitions">
           {definitions.map((entry, index) => (
             <div key={index}>
               <h4>{entry.word}</h4>
