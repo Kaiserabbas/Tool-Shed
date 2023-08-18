@@ -12,13 +12,13 @@ body {
   background-color: #f5f5f5;
   color: #333;
   text-align: center;
-    background-repeat: no-repeat;
-      background-size: 100vw;
-    }
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
 
 .headline {
-    background-color: #ffffffc5;
-      border-radius: 10px;
+  background-color: #ffffffc5;
+  border-radius: 10px;
   margin: 50px 40px;
   padding: 20px;
 }
@@ -29,12 +29,13 @@ body {
   width: 150px;
   height: auto;
 }
+
 .headline h1 {
   margin-bottom: 20px;
   font-size: 40px;
   font-weight: 700;
-  color: cornflowerblue; 
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1); 
+  color: cornflowerblue;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
 }
 
 .headline p {
@@ -55,7 +56,7 @@ body {
   padding: 10px 40px;
 }
 
-.contact{
+.contact {
   margin: 0 20px 0 0;
   text-decoration: none;
 }
@@ -71,7 +72,7 @@ body {
   padding: 10px;
 }
 
-button{
+button {
   background-color: cadetblue;
   color: white;
   padding: 10px 20px;
@@ -83,18 +84,18 @@ button{
 button:hover {
   background-color: #2674b3;
   border-radius: 10px;
-    border-radius: 15px;
+  border-radius: 15px;
 }
 
 button:focus {
   outline: none;
   transform: scale(0.9);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .refresh-button {
   margin: 0 0 0 20px;
-  background-color:#2674b3;
+  background-color: #2674b3;
   color: white;
   padding: 5px 10px;
   border: none;
@@ -104,7 +105,7 @@ button:focus {
 }
 
 .refresh-button:hover {
-  background-color:#007bff;
+  background-color: #007bff;
 }
 
 .material-icons {
@@ -115,8 +116,8 @@ button:focus {
 }
 
 .ip {
-    background-color: #ffffffc5;
-      border-radius: 10px;
+  background-color: #ffffffc5;
+  border-radius: 10px;
   margin: 50px 40px;
   padding: 20px 50px;
 }
@@ -124,6 +125,7 @@ button:focus {
 .ip button {
   margin: 20px 0;
 }
+
 .ip p {
   margin-bottom: 20px;
 }
@@ -136,41 +138,40 @@ button:focus {
 }
 
 .quote-container {
-    background-color: #ffffffc5;
-      border-radius: 10px;
-  margin: 100px auto;  
+  background-color: #ffffffc5;
+  border-radius: 10px;
+  margin: 100px auto;
   text-align: center;
   padding: 50px;
   border: 1px solid rgb(100, 149, 237);
   box-shadow: 2px 5px 15px rgb(100, 149, 237, 0.3);
   width: 50%;
-  border-radius: 10px;
 }
 
 .quote-text {
-  margin-bottom: 50px; 
+  margin-bottom: 50px;
   font-size: 34px;
-  }
+}
 
 .quote {
   text-align: center;
   font-size: 20px;
-  color: #2674b3;}
+  color: #2674b3;
+}
 
 .activity {
-    background-color: #ffffffc5;
-      border-radius: 10px;
+  background-color: #ffffffc5;
+  border-radius: 10px;
   margin: 100px auto;
-    text-align: center;
-    padding: 50px;
-    border: 1px solid rgb(100, 149, 237);
-    box-shadow: 2px 5px 15px rgb(100, 149, 237, 0.3);
-    width: 50%;
-    border-radius: 10px;
+  text-align: center;
+  padding: 50px;
+  border: 1px solid rgb(100, 149, 237);
+  box-shadow: 2px 5px 15px rgb(100, 149, 237, 0.3);
+  width: 50%;
 }
 
 .activity h3 {
-  margin: 20px 0; 
+  margin: 20px 0;
 }
 
 .activity button {
@@ -184,24 +185,23 @@ button:focus {
 
 .activity-text {
   color: #2674b3;
-  font-weight: 400; 
+  font-weight: 400;
   font-size: 20px;
 }
 
 .password {
-    background-color: #ffffffc5;
-      border-radius: 10px;
+  background-color: #ffffffc5;
+  border-radius: 10px;
   margin: 100px auto;
-    text-align: center;
-    padding: 50px;
-    border: 1px solid rgb(100, 149, 237);
-    box-shadow: 2px 5px 15px rgb(100, 149, 237, 0.3);
-    width: 50%;
-    border-radius: 10px;
+  text-align: center;
+  padding: 50px;
+  border: 1px solid rgb(100, 149, 237);
+  box-shadow: 2px 5px 15px rgb(100, 149, 237, 0.3);
+  width: 50%;
 }
 
 .password h3 {
-  margin: 20px 0;  
+  margin: 20px 0;
 }
 
 .password button {
@@ -216,18 +216,15 @@ button:focus {
 }
 
 .dictionary {
-    background-color: #ffffffc5;
-      border-radius: 10px;
+  background-color: #ffffffc5;
+  border-radius: 10px;
   margin: 100px auto;
-    text-align: center;
-    padding: 50px;
-    border: 1px solid rgb(100, 149, 237);
-    box-shadow: 2px 5px 15px rgb(100, 149, 237, 0.3);
-    width: 50%;
-    border-radius: 10px;
+  text-align: center;
+  padding: 50px;
+  border: 1px solid rgb(100, 149, 237);
+  box-shadow: 2px 5px 15px rgb(100, 149, 237, 0.3);
+  width: 50%;
 }
-
-di
 
 input {
   padding: 10px 20px;
@@ -247,15 +244,14 @@ input {
 }
 
 .zipcode {
-    background-color: #ffffffc5;
-      border-radius: 10px;
+  background-color: #ffffffc5;
+  border-radius: 10px;
   margin: 100px auto;
-    text-align: center;
-    padding: 50px;
-    border: 1px solid rgb(100, 149, 237);
-    box-shadow: 2px 5px 15px rgb(100, 149, 237, 0.3);
-    width: 50%;
-    border-radius: 10px;
+  text-align: center;
+  padding: 50px;
+  border: 1px solid rgb(100, 149, 237);
+  box-shadow: 2px 5px 15px rgb(100, 149, 237, 0.3);
+  width: 50%;
 }
 
 .zipcode button {
@@ -271,7 +267,6 @@ input {
   border: 1px solid rgb(100, 149, 237);
   box-shadow: 2px 5px 15px rgb(100, 149, 237, 0.3);
   width: 50%;
-
 }
 
 .weather form {
@@ -285,7 +280,7 @@ input {
 }
 
 .units {
-  display:inline-flex;
+  display: inline-flex;
   gap: 10px;
   align-items: center;
   justify-content: center;
@@ -334,17 +329,4 @@ textarea {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
-}
-
-button {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #0056b3;
 }
