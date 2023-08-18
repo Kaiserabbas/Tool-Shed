@@ -206,7 +206,7 @@ button:focus {
     border-radius: 10px;
 }
 
-.dictionary input {
+input {
   padding: 10px;
   margin: 20px 0;
   border: 1px solid rgb(100, 149, 237);
@@ -216,5 +216,19 @@ button:focus {
 }
 
 .dictionary button {
+  margin: 20px 0;
+}
+
+.zipcode {
+  margin: 100px auto;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid rgb(100, 149, 237);
+    box-shadow: 2px 5px 15px rgb(100, 149, 237, 0.3);
+    width: 50%;
+    border-radius: 10px;
+}
+
+.zipcode button {
   margin: 20px 0;
 }
