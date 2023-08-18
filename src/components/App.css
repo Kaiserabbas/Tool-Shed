@@ -330,3 +330,24 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
+@media (max-width: 600px) {
+  .logo {
+    margin: 0 0 0 20px;
+  }
+  .contact-page {
+    padding: 10px;
+    border: none;
+    box-shadow: none;
+  }
+
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    padding: 8px;
+  }
+
+  button {
+    padding: 8px 16px;
+  }
+}
