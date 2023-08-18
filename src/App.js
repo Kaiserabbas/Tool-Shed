@@ -6,6 +6,7 @@ import FetchIP from './components/FetchIP';
 import QuoteDisplay from './components/QuoteDisplay';
 import RandomPasswordGenerator from './components/GeneratePassword';
 import WordDefinitions from './components/Dictionary';
+import ZipCodeInfo from './components/ZipCode';
 import './components/App.css';
 
 function App() {
@@ -35,6 +36,9 @@ function App() {
           {' '}
           Dictionary{' '}
         </Link>
+        <Link className="nav-link" to="zipCode">
+          Zipcode Information
+        </Link>
         <button className="refresh-button" onClick={refreshPage}>
           <i className="material-icons">refresh</i> Refresh
         </button>
@@ -46,6 +50,7 @@ function App() {
         <Route path="/quote" element={<QuoteDisplay />} />
         <Route path="/randomPassword" element={<RandomPasswordGenerator />} />
         <Route path="/dictionary" element={<WordDefinitions />} />
+        <Route path="/zipCode" element={<ZipCodeInfo />} />
       </Routes>
     </>
   );
