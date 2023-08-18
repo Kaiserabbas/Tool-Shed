@@ -20,11 +20,12 @@ function RandomPasswordGenerator() {
   return (
     <div className="password">
       <h3>Random Password Generator</h3>
-      <button onClick={generateRandomPassword}>Generate Password</button>
+      <button type="button" onClick={generateRandomPassword}>
+        Generate Password
+      </button>
       {password && (
         <p>
-          {' '}
-          <strong>"{password}"</strong>{' '}
+          <strong>{password}</strong>
         </p>
       )}
     </div>

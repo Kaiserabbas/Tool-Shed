@@ -50,11 +50,10 @@ const WeatherComponent = () => {
   const temperatureColor = (temperature) => {
     if (temperature > 30) {
       return 'red';
-    } else if (temperature <= 30 && temperature >= 10) {
+    } if (temperature <= 30 && temperature >= 10) {
       return 'green';
-    } else {
-      return 'blue';
     }
+    return 'blue';
   };
 
   useEffect(() => {

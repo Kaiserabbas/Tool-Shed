@@ -48,7 +48,11 @@ const QuoteDisplay = () => {
     <div className="quote-container">
       <h1 className="quote-text">Enjoy Quote!</h1>
       <blockquote className="quote">{quote}</blockquote>
-      <button className="new-quote-button" onClick={handleNewQuote}>
+      <button
+        type="button"
+        className="new-quote-button"
+        onClick={handleNewQuote}
+      >
         Get New Quote
       </button>
     </div>

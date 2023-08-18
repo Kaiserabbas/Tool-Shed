@@ -35,7 +35,9 @@ function FetchIP() {
   return (
     <div className="ip">
       <h3>Fetch your IP Address:</h3>
-      <button onClick={fetchIp}>Fetch IP</button>
+      <button type="button" onClick={fetchIp}>
+        Fetch IP
+      </button>
       {ip ? (
         <p>
           {' '}

@@ -28,7 +28,9 @@ function WordDefinitions() {
         value={word}
         onChange={(e) => setWord(e.target.value)}
       />
-      <button onClick={fetchDefinitions}>Fetch Definitions</button>
+      <button type="button" onClick={fetchDefinitions}>
+        Fetch Definitions
+      </button>
 
       {definitions.length > 0 && (
         <div className="definitions">

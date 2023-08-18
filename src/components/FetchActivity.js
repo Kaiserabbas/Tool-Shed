@@ -27,7 +27,9 @@ function FetchActivity() {
     <div className="activity">
       <h3> Challange yourself with some acitvity</h3>
       <div>
-        <button onClick={fetchNewActivity}>Challange youself</button>
+        <button type="button" onClick={fetchNewActivity}>
+          Challange youself
+        </button>
       </div>
       <p>
         {' '}

@@ -30,7 +30,9 @@ function ZipCodeInfo() {
         value={zipCode}
         onChange={(e) => setZipCode(e.target.value)}
       />
-      <button onClick={fetchZipInfo}>Fetch Info</button>
+      <button type="button" onClick={fetchZipInfo}>
+        Fetch Info
+      </button>
       {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
       {info && (
         <div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import Headline from './components/Headline';
 import FetchActivity from './components/FetchActivity';
 import FetchIP from './components/FetchIP';
@@ -10,7 +11,6 @@ import WeatherComponent from './components/Weather';
 import ZipCodeInfo from './components/ZipCode';
 import ContactPage from './components/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import logo from './assets/logo.png';
 import './components/App.css';
 
@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <Navbar bg="light" expand="lg" className="navbar">
-        <button className="refresh-button" onClick={refreshPage}>
+        <button type="button" className="refresh-button" onClick={refreshPage}>
           <i className="material-icons">refresh</i> Refresh
         </button>
         <Navbar.Brand as={Link} to="/" className="nav-brand">
